@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">aplicacion</string>
+
+    <string name="usser">User:</string>
+    <string name="password">password:</string>
+
+    <!-- botones-->
+    <string name="login">login</string>
+    <string name="registrar">register</string>
 </resources>
