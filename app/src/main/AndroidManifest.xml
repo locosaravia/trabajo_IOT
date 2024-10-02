@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Aplicacion"
         tools:targetApi="31">
         <activity
+            android:name=".buscarpl"
+            android:exported="false" />
+        <activity
+            android:name=".cuentaF"
+            android:exported="false" />
+        <activity
+            android:name=".Parte1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

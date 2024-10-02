@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Parte1Activity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="51dp"
+        android:fontFamily="sans-serif-black"
+        android:text="GAMELINK"
+        android:textColor="@color/letras"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/game1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/game1"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="258dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="66dp"
+        android:onClick="cod"
+        android:text="@string/game1"
+        app:layout_constraintBottom_toTopOf="@+id/game4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/game4"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="258dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="90dp"
+        android:onClick="apex"
+        android:text="@string/game3"
+        app:layout_constraintBottom_toTopOf="@+id/game3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game1" />
+
+    <Button
+        android:id="@+id/game2"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="258dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="170dp"
+        android:onClick="btf"
+        android:text="@string/game2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game3" />
+
+    <Button
+        android:id="@+id/game3"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="258dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="csgo"
+        android:text="@string/game4"
+        app:layout_constraintBottom_toTopOf="@+id/game2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
