@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">aplicacion</string>
 
+    <!-- inputs area-->
     <string name="usser">User:</string>
     <string name="password">password:</string>
 
+    <string name="ussername">username: </string>
+    <string name="email">email:</string>
+    <string name="contrasenia">password:</string>
+    <string name="age">age:</string>
+
     <!-- botones-->
-    <string name="login">login</string>
-    <string name="registrar">register</string>
+    <string name="btnlogin">login</string>
+    <string name="btnregistrar">register</string>
+    <string name="btnsumbit">sumbit</string>
 </resources>
