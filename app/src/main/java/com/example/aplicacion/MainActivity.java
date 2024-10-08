@@ -33,13 +33,10 @@ public class MainActivity extends AppCompatActivity {
         EditText campo2 = this.findViewById(R.id.campo2);
         String contrasenia = campo2.getText().toString();
 
-
         if(user.equals("c2") && contrasenia.equals("123")){
-            Intent i = new Intent(this,Parte1Activity.class);
-            startActivity(i);
-        }
-
-        else{
+        Intent i = new Intent(this,Parte1Activity.class);
+        startActivity(i);
+        }else{
             Toast.makeText(this, "contraseña o usuario equivocado", Toast.LENGTH_SHORT).show();
         }
     }
@@ -53,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, cuentaF.class);
         startActivity(i);
     }
-
-
 
 
 
