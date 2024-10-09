@@ -19,6 +19,10 @@
     <string name="clanName">Clan name:</string>
     <string name="clanNum">Players numbers:</string>
     <string name="clanRul">Clan rules:</string>
+    <string name="tornmane">Tournament name:</string>
+    <string name="prize">Prizes:</string>
+    <string name="allplaye">all players:</string>
+    <string name="rulestor">Rules:</string>
 
     <!-- botones-->
     <string name="btnlogin">login</string>
@@ -31,6 +35,7 @@
     <string name="createCL">create clan</string>
     <string name="joincla">join clan</string>
     <string name="createcl2">create clan</string>
+    <string name="createtor">create tournament</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
