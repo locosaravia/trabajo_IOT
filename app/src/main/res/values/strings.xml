@@ -9,9 +9,31 @@
     <string name="email">email:</string>
     <string name="contrasenia">password:</string>
     <string name="age">age:</string>
+    <string name="profile">profile</string>
+    <string name="tornament">tornament</string>
+    <string name="clan">clan</string>
+    <string name="foro">forum</string>
+    <string name="menu">menu</string>
+    <string name="game">game</string>
+    <string name="clancr">Clan creation</string>
+    <string name="clanName">Clan name:</string>
+    <string name="clanNum">Players numbers:</string>
+    <string name="clanRul">Clan rules:</string>
 
     <!-- botones-->
     <string name="btnlogin">login</string>
     <string name="btnregistrar">register</string>
     <string name="btnsumbit">sumbit</string>
+    <string name="cod">COD</string>
+    <string name="csgo">COUNTER STRIKE</string>
+    <string name="valo">VALORANT</string>
+    <string name="btf">BATTLEFIELD</string>
+    <string name="createCL">create clan</string>
+    <string name="joincla">join clan</string>
+    <string name="createcl2">create clan</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

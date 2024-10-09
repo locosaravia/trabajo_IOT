@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".clan">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="78dp"
+            android:layout_marginBottom="48dp"
+            android:background="@color/fondoletras"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/clancr"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_background"
+            android:textColorLink="@color/letras"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toTopOf="@+id/clanName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/clanName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="54dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="52dp"
+            android:ems="10"
+            android:hint="@string/clanName"
+            app:layout_constraintBottom_toTopOf="@+id/PlayerNumber"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/PlayerNumber"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="54dp"
+            android:layout_marginBottom="57dp"
+            android:ems="10"
+            android:hint="@string/clanNum"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/ClanRules"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clanName" />
+
+        <EditText
+            android:id="@+id/ClanRules"
+            android:layout_width="418dp"
+            android:layout_height="142dp"
+            android:layout_marginBottom="78dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTintMode="add"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/clanRul"
+            android:inputType="textMultiLine"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PlayerNumber" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="205dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="222dp"
+            android:text="@string/createCL"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ClanRules" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
+
+

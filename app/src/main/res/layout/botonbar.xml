@@ -1,35 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutDescription="@xml/botonbar_scene">
 
     <com.google.android.material.tabs.TabLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:id="@+id/layuttab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/baseline_chat_24"
-            android:text="clan" />
+            android:text="@string/clan" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/baseline_games_24"
-            android:text="tournament" />
+            android:text="@string/tornament" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wednesday" />
+            android:icon="@drawable/cascos"
+            android:text="@string/foro" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabItem"
+            android:id="@+id/tab4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tab5" />
+            android:icon="@drawable/profile"
+            android:text="@string/profile" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/joystick_gamer_stroke_icon_369676"
+            android:text="@string/game" />
+
     </com.google.android.material.tabs.TabLayout>
+
 </LinearLayout>
